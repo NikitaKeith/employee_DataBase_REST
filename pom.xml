@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.andreev</groupId>
 	<artifactId>restAPI</artifactId>
-	<version>0.1.0-ALPHA</version>
+	<version>0.1.2-ALPHA</version>
 	<name>restAPI</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -58,6 +58,10 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-actuator</artifactId>
+			</dependency>
     </dependencies>
 
 	<build>
