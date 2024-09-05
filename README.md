@@ -1,3 +1,4 @@
+# "Employee" Restful Service
 <p>
 endpoints:<br />
 <ul>
@@ -11,3 +12,15 @@ endpoints:<br />
 <li><b>/actuator/health</b>
 <li><b>/actuator/info</b>
 </p>
+  
+<h3>Versions:</h3>
+0.1.0.ALPHA - Basic functions with CRUD commands<br/>
+0.1.1.ALPHA - add actuators endpoints and fix URLs<br/>
+<br/>
+<h3>The following was used for the program:</h3>
+<ul>
+<li>Spring Boot</li>
+<li>Spring Actuators</li>
+<li>Hibernate</li>
+<li>MySQL DB</li>
+</ul>
