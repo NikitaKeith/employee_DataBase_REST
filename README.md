@@ -7,3 +7,7 @@ endpoints:<br />
   <li><b>/api/v1/employees/{id}</b> with PUT: edit the employee</li>
   <li><b>/api/v1/employees/{id}</b> with DELETE: delete the employee</li>
 </p>
+<p>
+<li><b>/actuator/health</b>
+<li><b>/actuator/info</b>
+</p>
